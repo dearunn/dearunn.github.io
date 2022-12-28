@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dearun软件 on Dearun 官方网站</title>
+    <link>https://dearunn.github.io/</link>
+    <description>Recent content in Dearun软件 on Dearun 官方网站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 09 Apr 2016 16:50:16 +0200</lastBuildDate><atom:link href="https://dearunn.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>常见问题回答</title>
+      <link>https://dearunn.github.io/qa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dearunn.github.io/qa/</guid>
+      <description>  软件支持的数据条目是多少？
+Dearun Trial版与Standard版均没有对数据规模进行限制，指标数也无限制，理论上支持大型数据集。但是需要注意的是，软件计算模型需要时间，如果数据规模较大时，将花费更多的时间进行求解。
+  软件安装后界面显示不完整怎么办？
+目前软件已经适配了大多数分辨率的情形，但是仍有小部分电脑会出现显示不完整的情况。如果出现这类问题，请参照网站中的兼容性解决方案，并按照流程进行操作。
+  软件下载后提示有风险怎么办？
+软件是十分安全的，请将其添加到信任列表。
+  软件对Excel的版本是否有要求？
+理论上是无要求的，但是如果出现导入数据错误的情况，请将数据格式另存为.xlsx的后缀，再重新导入尝试。
+  软件内的数据格式有什么要求？
+在使用软件前，请保证您导入的数据格式符合软件所支持的数据格式。具体数据格式请点击软件中的帮助选项，按照要求调整数据。如果数据格式错误，结果肯定是错误的。
+  软件使用过程中遇到了问题应该如何解决？
+在许可有效期内，如果您在软件操作过程中遇到了问题，可以联系技术支持人员进行解决。
+  软件计算结果中出现infeasible该怎么办？
+说明此时出现了无可行解的情况，即没有找到最优解，如果出现此情况，建议更换模型或者模型假设。
+  软件提示更新失败怎么办？
+每次使用前请先点击检查更新进行版本检查，确保您使用的是最新版本，新版本会修复旧版本中的一些BUG，请务必更新。如果提示软件更新失败，请先检查网络，如果网络正常的话，请检查您是否将软件安装在C盘中。如果是由于安装在系统盘而无法进行更新软件的话，请卸载掉当前软件，官网重新下载新版本软件，并将其安装在非系统盘（如果您事先已经获取了许可文件，请先备份好许可，在安装好新版本文件后，将许可文件重新放入）。
+  软件长期使用的有效期分别是多久？
+Dearun Standard版软件提供了半年期与一年期的许可，详情请咨询网站下方的联系方式。
+  软件是否享有更新服务？
+是的，软件后续的所有版本，均可以进行更新下载。
+  将许可文件放入后提示错误怎么办？
+如果您将许可文件放入后，软件界面提示错误，请检查许可文件是否放置正确，即放置在软件的安装目录下，并且文件名为license.lic的格式。如果提示许可出错，请联系技术支持人员。
+  Dearun软件与SBMrun软件有什么区别？
+SBMrun软件是Dearun软件中有关SBM模型的模块，只能做有关SBM的模型。SBMrun软件是一款专门针对于面板数据的SBM/SBM超效率的相邻/全局参比的Malmquist指数的计算软件，且加入了定制的加速算法，可以很好处理大规模数据的情况。SBMrun Trial版本的软件可支持数据为50行，且也可以计算与SBM模型相关的所有模型。
+  SBMrun软件在计算大规模数据时进度条不动了该怎么办？
+当您的数据规模较大时，例如总数据条目3000行以上，在软件计算过程中，可能会出现进度条不发生变化的情况。如果界面长时间没有变化，请敲击键盘的Enter键。
+  </description>
+    </item>
+    
+    <item>
+      <title>更新日志</title>
+      <link>https://dearunn.github.io/version/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dearunn.github.io/version/</guid>
+      <description>3.0.2 版本更新时间：2022年12月20日
+ 新增投入导向与产出导向的整数DEA模型 规模报酬新增规模报酬非增NIRS与规模报酬非减NDRS选项 新增Directional SBM、Weighted SBM、Weighted SBM超效率、Directional SBM超效率 Meta-frontier（共同前沿）模型 新增CCR超效率模型（投入/产出导向）、DDF超效率模型的相邻参比/全局参比的Malmquist指数 全面优化&amp;lt;动态指数&amp;gt;模块的算法，大幅提升指数的计算速度 Trial版新增Weighted SBM模型与FDH模型  3.0.1.4-6 版本更新时间：2022年12月19日
+ 新增了软件中表格可以直接复制的功能 新增FDH (Free disposal hull) 模型 (投入与产出导向) 交叉效率模型新增导出交叉效率矩阵功能 常规效率模型与超效率模型选项卡支持导出λ系数矩阵 DDF模型、Non-radial DDF模型、CCR/DDF超效率模型新增输出改进值 窗口DEA模型中新增CCR超效率与DDF超效率模型 数据检查时新增对负值及数据量纲问题的检查 点击结果保存会提示是否打开结果文件夹，更加方便 窗口SBM模型中新增选择导向的功能 如导入面板数据，新增检查是否满足软件所需平衡面板数据格式的功能 减少了计算过程中闪退的情况  3.0.1.1-3 版本更新时间：2022年11月14日
+ 提升了软件运行的稳定性 网络SBM模型中加入设置非期望产出的选项，并可以分别设置两个阶段的权重  3.0.1 版本更新时间：2022年11月10日
+注：本次更新需要重新下载安装包，无法在软件内点击检查更新进行更新。
+  “常规效率模型”、“超效率模型”、“网络DEA”选项卡增添了计算面板数据效率值的功能，只需要导入面板数据后，点击“包含时期列”，即可得到面板数据的全局效率值 加入Pessimistic CCR投入导向、CCR产出导向、SBM模型 优化了Malmquist指数值的结果显示，输出的格式为面板格式，便于进一步分析，更为直观 可以设置保存结果后，自动打开结果所在的文件夹，更为方便 如果在计算前对数据进行了标准化，保存的结果中增添了标准化后的数据表格 当计算结果出现无可行解时，可以选择是否用1或者0代替结果 新增了更新许可文件的选项，如果许可提示到期，点击更新即可自动下载最新Trial版许可 修正了在读取xls格式的文件时，提示导入数据格式错误的问题 在有网络的情况下，软件启动后会自动检查更新 Dearun trial版本新增了一个可以直接使用的模型：SBM模型的全局Malmquist指数 优化了界面UI，提示更为直观，同时修复其他错误  2.1.8-2.1.9 版本更新时间：2022年9月27日
+ 在无导向SBM模型的基础上新增了投入导向与产出导向的SBM模型 在无导向SBM超效率模型的基础上新增了投入导向与产出导向的SBM超效率模型  2.0.7-2.1.7 版本更新时间：2022年9月12日</description>
+    </item>
+    
+    <item>
+      <title>用户须知</title>
+      <link>https://dearunn.github.io/notice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dearunn.github.io/notice/</guid>
+      <description>本软件的版权归Dearun开发者所有，受知识产权法保护。未经作者许可，不得以任何方式复制、分发、修改、翻译、反编译本软件，不得故意删除或者改变软件权利管理电子信息。如有侵权行为，将追究责任。
+The copyright of this software belongs to Dearun developer. All rights are protected by intellectual property law. The software may not be reproduced, distributed, modified, translated or decompiled in any way, nor may the software information be intentionally deleted or altered without the author&amp;rsquo;s permission. Whoever conducts infringement shall be investigated for responsibility in accordance with the law.</description>
+    </item>
+    
+    <item>
+      <title>联系方式</title>
+      <link>https://dearunn.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dearunn.github.io/contact/</guid>
+      <description>Dearun 作为一款涵盖各类数据包络分析主流模型的计算软件，旨在为大家在科研中提供帮助。由于目前软件的算法实现部分与界面开发功能均由一人完成，难免会出现一些bug ，如果您在体验过程中遇到了问题，或者发现计算结果有误，欢迎及时联系我！
+ 邮箱：admin@dearun.top  </description>
+    </item>
+    
+  </channel>
+</rss>
