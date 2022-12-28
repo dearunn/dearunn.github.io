@@ -12,20 +12,20 @@
     <title>SBMrun软件 | Dearun 官方网站</title>
 
     
-    <link href="/css/nucleus.css?1672203901" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1672203901" rel="stylesheet">
-    <link href="/css/hybrid.css?1672203901" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1672203901" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1672203901" rel="stylesheet">
-    <link href="/css/auto-complete.css?1672203901" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1672203901" rel="stylesheet">
-    <link href="/css/theme.css?1672203901" rel="stylesheet">
-    <link href="/css/tabs.css?1672203901" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1672203901" rel="stylesheet">
+    <link href="/css/nucleus.css?1672239522" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1672239522" rel="stylesheet">
+    <link href="/css/hybrid.css?1672239522" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1672239522" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1672239522" rel="stylesheet">
+    <link href="/css/auto-complete.css?1672239522" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1672239522" rel="stylesheet">
+    <link href="/css/theme.css?1672239522" rel="stylesheet">
+    <link href="/css/tabs.css?1672239522" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1672239522" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1672203901"></script>
+    <script src="/js/jquery-3.3.1.min.js?1672239522"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1672203901"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1672203901"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1672239522"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1672239522"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/www.dea.best\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1672203901"></script>
+<script type="text/javascript" src="/js/search.js?1672239522"></script>
 
     
   </div>
@@ -448,6 +448,7 @@
         <li><a href="#下载与安装">下载与安装</a></li>
         <li><a href="#sbmrun功能介绍">SBMrun功能介绍</a></li>
         <li><a href="#软件使用说明">软件使用说明</a></li>
+        <li><a href="#软件注意事项">软件注意事项</a></li>
         <li><a href="#软件许可使用">软件许可使用</a></li>
       </ul>
     </li>
@@ -479,7 +480,7 @@
 	<h3 id="软件简介">软件简介</h3>
 <p>SBMrun是一款专门针对于面板数据的<strong>SBM/SBM超效率的相邻/全局参比</strong>的Malmquist指数的计算软件，且加入了定制的加速算法，<strong>可以很好处理大规模数据的情况</strong>。</p>
 <ol>
-<li>SBMrun是没有可视化界面的，是命令行交互的形式，提示十分完善，按照提示一步一步来就好；</li>
+<li>SBMrun是没有可视化界面的，是命令行交互的形式，提示十分完善，按照提示一步一步来即可；</li>
 <li>SBMrun只能做有关SBM的模型，具体可做模型列表请参照下文；</li>
 <li>数据格式与Dearun的面板数据格式一致，需要为平衡面板，且无需输入时期，会自动识别时期数；</li>
 <li>在计算过程中会显示进度条，可以更好地跟踪计算所需时长。</li>
@@ -528,14 +529,29 @@
 <li>SBM 超效率值 -全局(非指数值)</li>
 </ul>
 <h3 id="软件使用说明">软件使用说明</h3>
-<p>软件操作指南请点击：<a href="https://docs.qq.com/doc/DS2Z3VkhKV2hySGhH">SBMrun软件操作指南 <!-- raw HTML omitted --><!-- raw HTML omitted --></a></p>
+<ul>
+<li>软件操作指南请点击：<a href="https://docs.qq.com/doc/DS2Z3VkhKV2hySGhH">SBMrun软件操作指南 <!-- raw HTML omitted --><!-- raw HTML omitted --></a></li>
+</ul>
+<h3 id="软件注意事项">软件注意事项</h3>
+<ol>
+<li>软件的SBM模型均为非导向的SBM模型；</li>
+<li>面板数据必须为平衡面板！在数据中，每个决策单元、每个年份均不可以有缺失值、0值、负值；</li>
+<li>需要严格按照软件所要求的面板数据格式进行导入，时期列在前，DMU名称在后，顺序为：
+Period_1的截面数据、……、Period_t的截面数据，并将时期从小到大排列，且需要保证每一个时期的DMU顺序是完全相同。</li>
+<li>输入数据后，将会自动检查数据格式，包括是否包含0值、负值、空值、非数值，并检查是否为软件所要求的平衡面板数据格式，如出现<code>[Error]</code>提示，请务必按照提示调整数据后再重新计算。</li>
+<li>如果数据集规模较大，比如excel文件中超过了2000行乃至更多。在计算的时候，可能会出现软件界面长时间不输出新内容的情况，如果出现这种问题，请按照一下流程操作：<br>
+① 在电脑的搜索栏里搜索： cmd<br>
+② 右键，选择：打开文件位置<br>
+③ 打开的文件夹内找到“<strong>命令提示符</strong>”，右键，选择： 属性<br>
+④ 弹出的窗口中选择“<strong>选项</strong>”，编辑选项中“<strong>快速编辑模式</strong>”前面取消勾选，点击“<strong>应用</strong>”。</li>
+</ol>
 <h3 id="软件许可使用">软件许可使用</h3>
 <ul>
 <li>
-<p>直接下载的版本为SBMrun Trial版，内置License，以上模型均可以直接免费求解，但是数据规模有限制，数据条目不可以超过50行，而指标数无限制。</p>
+<p>直接下载的版本为SBMrun Trial版，内置License，以上模型均可以直接免费求解，但是数据规模有限制，<em>数据条目不可以超过50行</em>，而指标数无限制。</p>
 </li>
 <li>
-<p>如果您的数据条目更多的话，可以申请SBMrun标准版的许可。具体申请方式请点击<code>软件许可说明</code> ，填写表单进行提交申请，建议准备好数据并整理好格式后申请。审核通过后将发送到邮箱中，收到邮件后请及时激活。</p>
+<p>如果您的数据条目更多的话，可以申请SBMrun标准版的许可。具体申请方式请点击<a href="/application/permission/">软件许可申请</a> ，填写表单进行提交申请，建议准备好数据并整理好格式后申请。审核通过后将发送到邮箱中，收到邮件后请及时激活。</p>
 </li>
 </ul>
 
@@ -763,16 +779,16 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1672203901"></script>
-    <script src="/js/perfect-scrollbar.min.js?1672203901"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1672203901"></script>
-    <script src="/js/jquery.sticky.js?1672203901"></script>
-    <script src="/js/featherlight.min.js?1672203901"></script>
-    <script src="/js/highlight.pack.js?1672203901"></script>
+    <script src="/js/clipboard.min.js?1672239522"></script>
+    <script src="/js/perfect-scrollbar.min.js?1672239522"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1672239522"></script>
+    <script src="/js/jquery.sticky.js?1672239522"></script>
+    <script src="/js/featherlight.min.js?1672239522"></script>
+    <script src="/js/highlight.pack.js?1672239522"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1672203901"></script>
-    <script src="/js/learn.js?1672203901"></script>
-    <script src="/js/hugo-learn.js?1672203901"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1672239522"></script>
+    <script src="/js/learn.js?1672239522"></script>
+    <script src="/js/hugo-learn.js?1672239522"></script>
     
         
             <script src="https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"></script>
