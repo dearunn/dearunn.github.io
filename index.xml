@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dearun软件 on Dearun 官方网站</title>
-    <link>https://www.dea.best/</link>
+    <link>https://dearunn.github.io/</link>
     <description>Recent content in Dearun软件 on Dearun 官方网站</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 09 Apr 2016 16:50:16 +0200</lastBuildDate><atom:link href="https://www.dea.best/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Apr 2016 16:50:16 +0200</lastBuildDate><atom:link href="https://dearunn.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>常见问题回答</title>
-      <link>https://www.dea.best/qa/</link>
+      <link>https://dearunn.github.io/qa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dea.best/qa/</guid>
+      <guid>https://dearunn.github.io/qa/</guid>
       <description>  软件支持的数据条目是多少？
 Dearun Trial版与Standard版均没有对数据规模进行限制，指标数也无限制，理论上支持大型数据集。但是需要注意的是，软件计算模型需要时间，如果数据规模较大时，将花费更多的时间进行求解。
   软件安装后界面显示不完整怎么办？
@@ -43,10 +43,10 @@ SBMrun软件是Dearun软件中有关SBM模型的模块，只能做有关SBM的�
     
     <item>
       <title>更新日志</title>
-      <link>https://www.dea.best/version/</link>
+      <link>https://dearunn.github.io/version/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dea.best/version/</guid>
+      <guid>https://dearunn.github.io/version/</guid>
       <description>3.0.2 版本更新时间：2022年12月20日
  新增投入导向与产出导向的整数DEA模型 规模报酬新增规模报酬非增NIRS与规模报酬非减NDRS选项 新增Directional SBM、Weighted SBM、Weighted SBM超效率、Directional SBM超效率 Meta-frontier（共同前沿）模型 新增CCR超效率模型（投入/产出导向）、DDF超效率模型的相邻参比/全局参比的Malmquist指数 全面优化&amp;lt;动态指数&amp;gt;模块的算法，大幅提升指数的计算速度 Trial版新增Weighted SBM模型与FDH模型  3.0.1.4-6 版本更新时间：2022年12月19日
  新增了软件中表格可以直接复制的功能 新增FDH (Free disposal hull) 模型 (投入与产出导向) 交叉效率模型新增导出交叉效率矩阵功能 常规效率模型与超效率模型选项卡支持导出λ系数矩阵 DDF模型、Non-radial DDF模型、CCR/DDF超效率模型新增输出改进值 窗口DEA模型中新增CCR超效率与DDF超效率模型 数据检查时新增对负值及数据量纲问题的检查 点击结果保存会提示是否打开结果文件夹，更加方便 窗口SBM模型中新增选择导向的功能 如导入面板数据，新增检查是否满足软件所需平衡面板数据格式的功能 减少了计算过程中闪退的情况  3.0.1.1-3 版本更新时间：2022年11月14日
@@ -58,30 +58,30 @@ SBMrun软件是Dearun软件中有关SBM模型的模块，只能做有关SBM的�
     
     <item>
       <title>用户须知</title>
-      <link>https://www.dea.best/notice/</link>
+      <link>https://dearunn.github.io/notice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dea.best/notice/</guid>
+      <guid>https://dearunn.github.io/notice/</guid>
       <description>本软件的版权归Dearun开发者所有，受知识产权法保护。未经作者许可，不得以任何方式复制、分发、修改、翻译、反编译本软件，不得故意删除或者改变软件权利管理电子信息。如有侵权行为，将追究责任。
 The copyright of this software belongs to Dearun developer. All rights are protected by intellectual property law. The software may not be reproduced, distributed, modified, translated or decompiled in any way, nor may the software information be intentionally deleted or altered without the author&amp;rsquo;s permission. Whoever conducts infringement shall be investigated for responsibility in accordance with the law.</description>
     </item>
     
     <item>
       <title>联系方式</title>
-      <link>https://www.dea.best/contact/</link>
+      <link>https://dearunn.github.io/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dea.best/contact/</guid>
+      <guid>https://dearunn.github.io/contact/</guid>
       <description>Dearun 作为一款涵盖各类数据包络分析主流模型的计算软件，旨在为大家在科研中提供帮助。由于目前软件的算法实现部分与界面开发功能均由一人完成，难免会出现一些bug ，如果您在体验过程中遇到了问题，或者发现计算结果有误，欢迎及时联系我！
  邮箱：admin@dearun.top  </description>
     </item>
     
     <item>
       <title>联系方式</title>
-      <link>https://www.dea.best/guide/contact/</link>
+      <link>https://dearunn.github.io/guide/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dea.best/guide/contact/</guid>
+      <guid>https://dearunn.github.io/guide/contact/</guid>
       <description>Dearun 作为一款涵盖各类数据包络分析主流模型的计算软件，旨在为大家在科研中提供帮助。由于目前软件的算法实现部分与界面开发功能均由一人完成，难免会出现一些bug ，如果您在体验过程中遇到了问题，或者发现计算结果有误，欢迎及时联系我！
  邮箱：admin@dearun.top  </description>
     </item>

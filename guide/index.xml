@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>下载及安装 on Dearun 官方网站</title>
-    <link>https://www.dea.best/guide/</link>
+    <link>https://dearunn.github.io/guide/</link>
     <description>Recent content in 下载及安装 on Dearun 官方网站</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 09 Apr 2016 16:50:16 +0200</lastBuildDate><atom:link href="https://www.dea.best/guide/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Apr 2016 16:50:16 +0200</lastBuildDate><atom:link href="https://dearunn.github.io/guide/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>联系方式</title>
-      <link>https://www.dea.best/guide/contact/</link>
+      <link>https://dearunn.github.io/guide/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dea.best/guide/contact/</guid>
+      <guid>https://dearunn.github.io/guide/contact/</guid>
       <description>Dearun 作为一款涵盖各类数据包络分析主流模型的计算软件，旨在为大家在科研中提供帮助。由于目前软件的算法实现部分与界面开发功能均由一人完成，难免会出现一些bug ，如果您在体验过程中遇到了问题，或者发现计算结果有误，欢迎及时联系我！
  邮箱：admin@dearun.top  </description>
     </item>
