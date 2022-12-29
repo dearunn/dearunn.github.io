@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dearun软件 on Dearun 官方网站</title>
+    <title>简介 on Dearun 官方网站</title>
     <link>https://www.dea.best/</link>
-    <description>Recent content in Dearun软件 on Dearun 官方网站</description>
+    <description>Recent content in 简介 on Dearun 官方网站</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.dea.best/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>常见问题解答</title>
@@ -72,7 +72,8 @@ The copyright of this software belongs to Dearun developer. All rights are prote
       
       <guid>https://www.dea.best/contact/</guid>
       <description>Dearun 作为一款涵盖各类数据包络分析主流模型的计算软件，旨在为大家在科研中提供帮助。由于目前软件的算法实现部分与界面开发功能均由一人完成，难免会出现一些bug，感谢大家一直以来的支持和反馈，软件也在改进的过程中不断成长。如果您在体验过程中遇到了问题，或者发现计算结果有误，欢迎及时联系我！
- 邮箱：admin@dearun.top  </description>
+ 邮箱：admin@dearun.top        留言:     Dearun: 数据包络分析效率计算软件
+ </description>
     </item>
     
   </channel>
