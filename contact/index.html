@@ -12,20 +12,20 @@
     <title>联系方式 | Dearun 官方网站</title>
 
     
-    <link href="/css/nucleus.css?1672334692" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1672334692" rel="stylesheet">
-    <link href="/css/hybrid.css?1672334692" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1672334692" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1672334692" rel="stylesheet">
-    <link href="/css/auto-complete.css?1672334692" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1672334692" rel="stylesheet">
-    <link href="/css/theme.css?1672334692" rel="stylesheet">
-    <link href="/css/tabs.css?1672334692" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1672334692" rel="stylesheet">
+    <link href="/css/nucleus.css?1672350105" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1672350105" rel="stylesheet">
+    <link href="/css/hybrid.css?1672350105" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1672350105" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1672350105" rel="stylesheet">
+    <link href="/css/auto-complete.css?1672350105" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1672350105" rel="stylesheet">
+    <link href="/css/theme.css?1672350105" rel="stylesheet">
+    <link href="/css/tabs.css?1672350105" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1672350105" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1672334692"></script>
+    <script src="/js/jquery-3.3.1.min.js?1672350105"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1672334692"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1672334692"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1672350105"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1672350105"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/www.dea.best\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1672334692"></script>
+<script type="text/javascript" src="/js/search.js?1672350105"></script>
 
     
   </div>
@@ -393,7 +393,7 @@
         <ul>
           
               <li>
-                  <a class="padding" href="/qa"><i class='fa fa-fw fa-calendar-check'></i> 常见问题Q&A</a>
+                  <a class="padding" href="/qa"><i class='fa fa-fw fa-calendar-check'></i> FAQ</a>
               </li>
           
               <li>
@@ -415,10 +415,9 @@
     
     <section id="footer">
       <center>
-    <p>Dearun: 数据包络分析效率计算软件</p>
+    <p><a href="https://www.dearun.club">Dearun</a>: 数据包络分析效率计算软件</p>
     <p>Data envelopment analysis</p>
 </center>
-
 
 
     </section>
@@ -486,11 +485,9 @@
 </br>
 </br>
 </br>
-</br>
-</br>
 </br></li>
 </ul>
-<h2>留言:</h2>
+<!-- <h3 >留言:</h3>
 </br>
 <div id="cusdis_thread"
   data-host="https://cusdis.com"
@@ -499,11 +496,46 @@
   data-page-url="{{ PAGE_URL }}"
   data-page-title="{{ PAGE_TITLE }}"
 ></div>
-<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+<script async defer src="https://cusdis.com/js/cusdis.es.js" ></script> -->
+<p>大家有什么想说的欢迎在下方留言，<strong>邮箱</strong>处若输入QQ邮箱，将会自动获取头像，也可以注册登录进行评论~</p>
+<h4 >评论:</h4>
+<head>
+  <!-- ... -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+  >
+  <style type="text/css">
+  	#body img {
+    margin: auto;
+    display: inline;
+    text-align: left;
+  	}
+  </style>
+  <!-- ... -->
+</head>
+<body>
+  <!-- ... -->
+  <div id="waline"></div>
+  <script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+    init({
+      el: '#waline',
+      search: false,
+      meta: ['nick', 'mail'],
+      meta: ['nick', 'mail'],
+      copyright: false,
+      pageSize: 15,
+      serverURL: 'https://fohzy5.deta.dev/',
+      emoji: [
+         'https://unpkg.com/@waline/emojis@1.1.0/tw-emoji',
+    ],
+    });
+  </script>
+</body>
 <center>
     <p>Dearun: 数据包络分析效率计算软件</p>
 </center>
-
 
 <footer class="footline">
 	
