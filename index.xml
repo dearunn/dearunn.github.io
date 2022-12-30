@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>简介 on Dearun 官方网站</title>
+    <title>主页 on Dearun 官方网站</title>
     <link>https://www.dearun.net/</link>
-    <description>Recent content in 简介 on Dearun 官方网站</description>
+    <description>Recent content in 主页 on Dearun 官方网站</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.dearun.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>常见问题解答</title>
-      <link>https://www.dearun.net/qa/</link>
+      <link>https://www.dearun.net/fqa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dearun.net/qa/</guid>
+      <guid>https://www.dearun.net/fqa/</guid>
       <description>  软件支持的数据条目是多少？
 Dearun Trial版与Standard版均没有对数据规模进行限制，指标数也无限制，理论上支持大型数据集。但是需要注意的是，软件计算模型需要时间，如果数据规模较大时，将花费更多的时间进行求解。
   软件安装后界面显示不完整怎么办？
@@ -72,8 +72,8 @@ The copyright of this software belongs to Dearun developer. All rights are prote
       
       <guid>https://www.dearun.net/contact/</guid>
       <description>Dearun 作为一款涵盖各类数据包络分析主流模型的计算软件，旨在为大家在科研中提供帮助。由于目前软件的算法实现部分与界面开发功能均由一人完成，难免会出现一些bug，感谢大家一直以来的支持和反馈，软件也在改进的过程中不断成长。如果您在体验过程中遇到了问题，或者发现计算结果有误，欢迎及时联系我！
-  邮箱：admin@dearun.top  交流群：164511727      留言:    -- 大家有什么想说的欢迎在下方留言，邮箱处若输入QQ邮箱，将会自动获取头像，也可以注册登录进行评论~
-留言:  #body img { margin: auto; display: inline; text-align: left; }     import { init } from &#39;https://unpkg.com/@waline/client@v2/dist/waline.mjs&#39;; init({ el: &#39;#waline&#39;, search: false, meta: [&#39;nick&#39;, &#39;mail&#39;], meta: [&#39;nick&#39;, &#39;mail&#39;], copyright: false, pageSize: 15, serverURL: &#39;https://fohzy5.deta.dev/&#39;, emoji: [ &#39;https://unpkg.com/@waline/emojis@1.1.0/tw-emoji&#39;, ], });    Dearun: 数据包络分析效率计算软件</description>
+  邮箱：admin@dearun.top  交流群：164511727      留言:    --  大家有什么想说的欢迎在下方留言，邮箱处若输入QQ邮箱，将会自动获取头像，也可以注册登录进行评论~
+留言:  #body img { margin: auto; display: inline; text-align: left; }     import { init } from &#39;https://unpkg.com/@waline/client@v2/dist/waline.mjs&#39;; init({ el: &#39;#waline&#39;, search: false, meta: [&#39;nick&#39;, &#39;mail&#39;], meta: [&#39;nick&#39;, &#39;mail&#39;], copyright: false, pageSize: 15, serverURL: &#39;https://dearuncomment.top/&#39;, comment: true, emoji: [ &#39;https://unpkg.com/@waline/emojis@1.1.0/tw-emoji&#39;, ], });    Dearun: 数据包络分析效率计算软件</description>
     </item>
     
   </channel>
