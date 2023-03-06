@@ -11,7 +11,7 @@
 	"WelcomePage": "* * * * *请务必进行更新* * * * *\n\n新版本 (v 3.0.3.15) 更新内容: \n\n1. 新增Weighted SBM模型的相邻、全局Malmquist指数\n2. 新增两阶段网络DEA模型的全局Malmquist指数\n3. Trial版支持计算SBM超效率模型与对应的全局Malmquist指数\n\n为了软件功能的正常使用，请前往更新",
 	"information": "===> *********** ！！！您当前版本过低，请点击检查更新进行更新！！！*********** <===\n",
 	"information_new": "<strong><font color='#984B4B'>公告：请务必保持软件为最新版本（v3.0.3.15），如提示许可过期请点击左下角[选项]中[软件许可设置]进行重置许可。</font></strong>\n",
-	"solver":"--------------------信息输出栏 Solver supported by CBC--------------------\n-> 开始计算后将自动切换本栏, 此处输出导入数据信息、模型注意事项、模型设定信息等",
+	"solver":"--------------------信息输出栏 Solver supported by CBC (coin-or.org)--------------------\n-> 开始计算后将自动切换本栏, 此处输出导入数据信息、模型注意事项、模型设定信息等",
 	"currentdateurl": "http://www.beijing-time.org/t/time.asp",
 	"modelfree_1": "[]",
 	"modelfree_2": "['SBM超效率模型']",
