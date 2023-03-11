@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>主页 on Dearun 官方网站</title>
+    <title>主页 on Dearun Tools官方网站</title>
     <link>https://dearunn.github.io/</link>
-    <description>Recent content in 主页 on Dearun 官方网站</description>
+    <description>Recent content in 主页 on Dearun Tools官方网站</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://dearunn.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>常见问题解答</title>
@@ -68,8 +68,8 @@ SBMrun软件是Dearun软件中有关SBM模型的模块，只能做有关SBM的�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dearunn.github.io/notice/</guid>
-      <description>本软件的版权归Dearun开发者所有，受知识产权法保护。未经作者许可，不得以任何方式复制、分发、修改、翻译、反编译本软件，不得故意删除或者改变软件权利管理电子信息。如有侵权行为，将追究责任。
-The copyright of this software belongs to Dearun developer. All rights are protected by intellectual property law. The software may not be reproduced, distributed, modified, translated or decompiled in any way, nor may the software information be intentionally deleted or altered without the author&amp;rsquo;s permission. Whoever conducts infringement shall be investigated for responsibility in accordance with the law.</description>
+      <description>本软件的版权归Dearun Tools开发者所有，受知识产权法保护。未经作者许可，不得以任何方式复制、分发、修改、翻译、反编译本软件，不得故意删除或者改变软件权利管理电子信息。如有侵权行为，将追究责任。
+The copyright of this software belongs to Dearun Tools developer. All rights are protected by intellectual property law. The software may not be reproduced, distributed, modified, translated or decompiled in any way, nor may the software information be intentionally deleted or altered without the author&amp;rsquo;s permission. Whoever conducts infringement shall be investigated for responsibility in accordance with the law.</description>
     </item>
     
     <item>
@@ -78,7 +78,7 @@ The copyright of this software belongs to Dearun developer. All rights are prote
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dearunn.github.io/contact/</guid>
-      <description>Dearun 作为一款涵盖各类数据包络分析主流模型的计算软件，旨在为大家在科研中提供帮助。由于目前软件的算法实现部分与界面开发功能均由一人完成，难免会出现一些bug，感谢大家一直以来的支持和反馈，软件也在改进的过程中不断成长。如果您在体验过程中遇到了问题，或者发现计算结果有误，欢迎及时联系我！
+      <description>Dearun Tools作为一款涵盖各类数据包络分析主流模型的计算软件，旨在为大家在科研中提供帮助。由于目前软件的算法实现部分与界面开发功能均由一人完成，难免会出现一些bug，感谢大家一直以来的支持和反馈，软件也在改进的过程中不断成长。如果您在体验过程中遇到了问题，或者发现计算结果有误，欢迎及时联系我！
   邮箱：admin@dearun.top (有问题请邮件联系)  交流群：164511727      留言:    --  大家有什么想说的欢迎在下方留言，邮箱处若输入QQ邮箱，将会自动获取头像，也可以注册登录进行评论~
 留言:  #body img { margin: auto; display: inline; text-align: left; }     import { init } from &#39;https://unpkg.com/@waline/client@v2/dist/waline.mjs&#39;; init({ locale : { reactionTitle: &#39;觉得有帮助的话，请点个赞吧~&#39;, }, el: &#39;#waline&#39;, search: false, meta: [&#39;nick&#39;, &#39;mail&#39;], reaction: true, copyright: false, pageSize: 15, pageview: true, serverURL: &#39;https://comments.dearun.net/&#39;, comment: true, emoji: [ &#39;https://unpkg.</description>
     </item>

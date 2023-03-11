@@ -4,21 +4,21 @@
 	"title": "下载",
 	"tags": [],
 	"description": "",
-	"content": " 本软件目前只支持64位Windows系统下载使用，暂不支持mac系统\n 软件下载地址 点击这里获取Dearun安装文件： Dearun 软件下载    如果点击下载链接没反应，请更换浏览器重试； 如果提示无法安全下载Dearun_Setup.exe，请右键点击该提示，在弹出的对话框里选择仍然保留，即可开始下载。  "
+	"content": " 本软件目前只支持64位Windows系统下载使用，暂不支持mac系统\n 软件下载地址 点击这里获取Dearun Tools安装文件： Dearun 软件下载    如果点击下载链接没反应，请更换浏览器重试； 如果提示无法安全下载Dearun_Setup.exe，请右键点击该提示，在弹出的对话框里选择仍然保留，即可开始下载。  "
 },
 {
 	"uri": "https://dearunn.github.io/guide/",
 	"title": "下载及安装",
 	"tags": [],
 	"description": "",
-	"content": "下载及安装 本节将为您介绍如何下载并安装Dearun软件 "
+	"content": "下载及安装 本节将为您介绍如何下载并安装Dearun Tools "
 },
 {
 	"uri": "https://dearunn.github.io/guide/install/",
 	"title": "安装",
 	"tags": [],
 	"description": "",
-	"content": " 请按照以下步骤运行Dearun   点击Dearun_Setup.exe文件\n 请跟随安装步骤来即可，建议安装在D、E盘等非系统盘\n 双击运行桌面上的Dearun.exe\n  如果您的电脑安装了360软件，由于软件没有数字签名，所以在使用过程中可能会被误判，但是请放心，软件安全无毒，请将Dearun.exe添加为信任文件\n 顺利的话将会出现如下Dearun图形交互界面：   如果软件界面显示不正常，请参照软件兼容性问题解决方案：链接\n "
+	"content": " 请按照以下步骤运行Dearun Tools：   点击Dearun_Setup.exe文件\n 请跟随安装步骤来即可，建议安装在D、E盘等非系统盘\n 双击运行桌面上的Dearun.exe\n  如果您的电脑安装了360软件，由于软件没有数字签名，所以在使用过程中可能会被误判，但是请放心，软件安全无毒，请将Dearun.exe添加为信任文件\n 顺利的话将会出现如下Dearun Tools图形交互界面：   如果软件界面显示不正常，请参照软件兼容性问题解决方案：链接\n "
 },
 {
 	"uri": "https://dearunn.github.io/data/",
@@ -46,7 +46,7 @@
 	"title": "软件许可说明",
 	"tags": [],
 	"description": "",
-	"content": "Dearun软件版本介绍 Dearun Trial版 网站上直接下载的版本为Dearun Trial版，为功能受限的版本。Trial版包含以下DEA模型：\n 投入与产出导向的CCR、BCC模型 非径向的SBM模型（可包含非期望产出，可选择导向） 非径向的Weighted SBM模型 投入与产出导向的CCR超效率、BCC超效率模型 Meta-frontier CCR、BCC、SBM、Weighted SBM、CCR超效率、BCC超效率模型 投入与产出导向的CCR、BCC、CCR超效率、BCC超效率模型的Malmquist指数（全局参比、相邻参比） SBM模型的Malmquist指数（全局参比） Meta-frontier CCR、BCC、SBM Malmuqist指数（全局参比） 两阶段乘性网络DEA模型  Dearun Trial版对数据规模没有限制，理论上可以支持大规模数据集的效率值测算。\nTrial版软件仅供学习使用，不得用于商业用途。\n Dearun Standard版 请先下载使用Dearun Trial版本，确保该软件可以在您的电脑上正常使用。Standard版包含以下模型：\n 计算传统Radial模型（CCR、BCC）、SBM模型、WSBM模型、DDF模型、EBM模型、MinDP（至前沿最小距离）、Directional SBM模型、Non-radial DDF模型、整数DEA模型的效率值 计算FDH、FRH、ERH模型的效率值（投入与产出导向） 可输出λ系数矩阵与权重系数矩阵 可以计算六种主流的交叉效率模型 Pessimistic CCR投入导向模型、CCR产出导向模型 可通过ZSG-DEA模型进行资源分配 计算传统Radial模型、SBM模型、DDF模型、EBM模型、Directional SBM模型、WSBM模型的超效率值 可以处理包含非期望产出的情况（除EBM模型外） 针对以上模型可以选取不同的规模报酬性，分别是：CRS (constant returns to scale), VRS (variable returns to scale), NIRS (non-increasing returns to scale) , NDRS (non-decreasing returns-to-scale) 选择传统Radial模型，可以判断规模报酬情况（IRS、CRS、DRS） 计算基于相邻参比与全局参比的CCR、CCR超效率、SBM、SBM超效率、DDF、EBM、EBM超效率的Malmquist指数模型，并分解为技术进步与效率变化，同时给出计算过程中的效率值 计算ML指数模型与GML指数模型 计算全局参比的Directional SBM模型、Non-radial DDF模型的Malmquist Luenberger指数与Luenberger指数 计算窗口DEA模型，可自行设置窗口期 计算Meta-frontier模型、Meta-frontier Malmquist指数模型 计算多种基础的两阶段网络DEA模型（包含投入、共享投入、中间产品、产出)  Dearun Standard版需要申请许可，具体申请方式请点击软件许可申请，填写表单进行提交申请，建议准备好数据并整理好格式后再进行申请。\n"
+	"content": "Dearun Tools版本介绍 Dearun Trial版 网站上直接下载的版本为Dearun Trial版，为功能受限的版本。Trial版包含以下DEA模型：\n 投入与产出导向的CCR、BCC模型 非径向的SBM模型（可包含非期望产出，可选择导向） 非径向的Weighted SBM模型 投入与产出导向的CCR超效率、BCC超效率模型 Meta-frontier CCR、BCC、SBM、Weighted SBM、CCR超效率、BCC超效率模型 投入与产出导向的CCR、BCC、CCR超效率、BCC超效率模型的Malmquist指数（全局参比、相邻参比） SBM模型的Malmquist指数（全局参比） Meta-frontier CCR、BCC、SBM Malmuqist指数（全局参比） 两阶段乘性网络DEA模型  Dearun Trial版对数据规模没有限制，理论上可以支持大规模数据集的效率值测算。\nTrial版软件仅供学习使用，不得用于商业用途。\n Dearun Standard版 请先下载使用Dearun Trial版本，确保该软件可以在您的电脑上正常使用。Standard版包含以下模型：\n 计算传统Radial模型（CCR、BCC）、SBM模型、WSBM模型、DDF模型、EBM模型、MinDP（至前沿最小距离）、Directional SBM模型、Non-radial DDF模型、整数DEA模型的效率值 计算FDH、FRH、ERH模型的效率值（投入与产出导向） 可输出λ系数矩阵与权重系数矩阵 可以计算六种主流的交叉效率模型 Pessimistic CCR投入导向模型、CCR产出导向模型 可通过ZSG-DEA模型进行资源分配 计算传统Radial模型、SBM模型、DDF模型、EBM模型、Directional SBM模型、WSBM模型的超效率值 可以处理包含非期望产出的情况（除EBM模型外） 针对以上模型可以选取不同的规模报酬性，分别是：CRS (constant returns to scale), VRS (variable returns to scale), NIRS (non-increasing returns to scale) , NDRS (non-decreasing returns-to-scale) 选择传统Radial模型，可以判断规模报酬情况（IRS、CRS、DRS） 计算基于相邻参比与全局参比的CCR、CCR超效率、SBM、SBM超效率、DDF、EBM、EBM超效率的Malmquist指数模型，并分解为技术进步与效率变化，同时给出计算过程中的效率值 计算ML指数模型与GML指数模型 计算全局参比的Directional SBM模型、Non-radial DDF模型的Malmquist Luenberger指数与Luenberger指数 计算窗口DEA模型，可自行设置窗口期 计算Meta-frontier模型、Meta-frontier Malmquist指数模型 计算多种基础的两阶段网络DEA模型（包含投入、共享投入、中间产品、产出)  Dearun Standard版需要申请许可，具体申请方式请点击软件许可申请，填写表单进行提交申请，建议准备好数据并整理好格式后再进行申请。\n"
 },
 {
 	"uri": "https://dearunn.github.io/sbmrun/",
@@ -67,14 +67,14 @@
 	"title": "软件许可申请",
 	"tags": [],
 	"description": "",
-	"content": " Dearun许可申请  为了更多的研究人员可以快速入手DEA模型，Dearun正在开放下载与许可申请。如您为学术使用用途，将为您提供一定时间的Dearun Standard版许可，许可期内求解次数不限。填写表单进行提交申请，建议准备好数据并整理好格式后申请。 审核通过后将发送到邮箱中，收到邮件后请及时激活。   点击此链接进行申请：Dearun许可申请 （SBMrun也为该申请链接）\n Note：请不要轻信填完此表单后的广告链接！\nDearun软件推广  如果您之前已经通过上述链接申请过许可，并认为本软件可以很好地实现您所应用的模型，同时有继续使用本软件的需求，可以填写本表单获得更长时间的许可。   本软件的目的是为了大家更快上手、使用各类数据包络分析模型，目前Trial版（无需额外获取许可的版本）已经支持越来越多的模型，现在希望得到大家的反馈，非常欢迎大家推广本软件。\n 推广具体要求与申请链接：Dearun推广链接\n 计算机用户名获取方式  键盘按下快捷键windows键+R键 弹出的运行窗口内输入:cmd\n 弹出的黑色窗口内输入：  echo %USERNAME% 输出的文字即为您电脑的用户名，将其填在表单计算机用户名一栏即可。  注：用户名请正确填写，填写错误将无法使用本软件。\n 您提交表单后，将于2个工作日内将许可文件与激活方式发送到您填写的邮箱内，请务必保证您填写的邮箱正确。\n"
+	"content": " Dearun Tools许可申请  为了更多的研究人员可以快速入手DEA模型，Dearun正在开放下载与许可申请。如您为学术使用用途，将为您提供一定时间的Dearun Standard版许可，许可期内求解次数不限。填写表单进行提交申请，建议准备好数据并整理好格式后申请。 审核通过后将发送到邮箱中，收到邮件后请及时激活。   点击此链接进行申请：Dearun许可申请 （SBMrun也为该申请链接）\n Note：请不要轻信填完此表单后的广告链接！\nDearun Tools推广  如果您之前已经通过上述链接申请过许可，并认为本软件可以很好地实现您所应用的模型，同时有继续使用本软件的需求，可以填写本表单获得更长时间的许可。   本软件的目的是为了大家更快上手、使用各类数据包络分析模型，目前Trial版（无需额外获取许可的版本）已经支持越来越多的模型，现在希望得到大家的反馈，非常欢迎大家推广本软件。\n 推广具体要求与申请链接：Dearun推广链接\n 计算机用户名获取方式  键盘按下快捷键windows键+R键 弹出的运行窗口内输入:cmd\n 弹出的黑色窗口内输入：  echo %USERNAME% 输出的文字即为您电脑的用户名，将其填在表单计算机用户名一栏即可。  注：用户名请正确填写，填写错误将无法使用本软件。\n 您提交表单后，将于2个工作日内将许可文件与激活方式发送到您填写的邮箱内，请务必保证您填写的邮箱正确。\n"
 },
 {
 	"uri": "https://dearunn.github.io/application/activation/",
 	"title": "软件许可激活",
 	"tags": [],
 	"description": "",
-	"content": " 请您首先在官网上下载、安装本软件，并记住软件的安装位置。下载邮件附件中的license文件，将其放在软件安装的根目录下。\n（1）如果您找不到软件的安装目录，可以尝试右键点击桌面上Dearun的快捷方式（SBMrun同理），点击打开文件所在的位置，弹出的文件夹窗口即为软件的安装位置 。\n（2）如果您下载了多个许可文件，导致许可文件后多了数字，如license(1).lic，请删除多余的数字，保持license.lic的格式。\n（3）获取的license仅可在您官网申请时填写的用户名所对应的机器上使用，一机一码。\n（4）请保持在联网的状态激活许可，放入许可后需要重新打开软件。\n"
+	"content": " 请您首先在官网上下载、安装本软件，并记住软件的安装位置。下载邮件附件中的license文件，将其放在软件安装的根目录下。\n（1）如果您找不到软件的安装目录，可以尝试右键点击桌面上Dearun Tools的快捷方式（SBMrun同理），点击打开文件所在的位置，弹出的文件夹窗口即为软件的安装位置 。\n（2）如果您下载了多个许可文件，导致许可文件后多了数字，如license(1).lic，请删除多余的数字，保持license.lic的格式。\n（3）获取的license仅可在您官网申请时填写的用户名所对应的机器上使用，一机一码。\n（4）请保持在联网的状态激活许可，放入许可后需要重新打开软件。\n"
 },
 {
 	"uri": "https://dearunn.github.io/categories/",
@@ -95,7 +95,7 @@
 	"title": "主页",
 	"tags": [],
 	"description": "",
-	"content": " Dearun 软件简介 数据包络分析(Data envelopment analysis, DEA) 是一种评价具有多投入和多产出的决策单元(Decision-making unit, DMU)相对有效性的非参数方法，其无需预先给定权重和假设分布，可以直接通过投入与产出数据来确定生产前沿面的结构。作为数学、运筹学与计算机的交叉研究领域，DEA方法在多个领域有着广泛的应用。\n大部分刚接触DEA的研究人员，可能都会对这类优化模型有着很深的疑惑，不知从何下手。如果想彻底明白DEA模型的机理，必须熟练掌握并运用运筹学的相关知识，包括如何建立、求解、分析优化模型，这意味着较高的学习成本。目前市面上也有一些软件来处理DEA模型，但是免费的软件只能求解简单的CCR/BCC模型，根本无法满足日常的研究需求。\nDearun是一款可以计算数据包络分析方法中主流模型的软件，包括基础效率模型、超效率模型、网络DEA模型以及动态Malmquist指数分析，同时可以处理包含非期望产出的情形，便于本领域的研究人员快速测算效率值并进行后续的分析，本软件的下载和使用完全免费。\n 请点击左侧菜单栏进行下载、安装与使用Dearun软件，常见问题解答请点击  FAQ，如有疑问请点击  与我联系\n 公告：Dearun v 3.0.3.11与SBMrun v 1.4及以下的版本将停止使用，请备份好许可后，下载并安装新版本。 下载链接：Dearun，SBMrun\n 注: 软件的每次更新除了加入新模型外，还会修复旧版本中存在的BUG，但是很多同学在软件的使用过程中，会忽略更新提示，导致软件的帮助文件不再适用于当前所使用的旧版本，因此本次强制安装新版本，望大家理解。\n功能介绍  计算传统Radial模型（CCR、BCC）、SBM模型、WSBM（Weighted SBM）模型、DDF模型、EBM模型、MinDP（至前沿最小距离）、Directional SBM模型、Non-radial DDF模型、整数DEA模型的效率值 可输出λ系数矩阵与影子价格矩阵 可以计算六种主流的交叉效率模型 计算FDH、FRH、ERH模型的效率值（投入与产出导向） Pessimistic CCR投入导向模型、CCR产出导向模型 可通过ZSG-DEA模型进行单资源分配 计算传统Radial模型、SBM模型、DDF模型、EBM模型、Directional SBM模型、WSBM模型的超效率值 可以处理包含非期望产出的情况（除EBM模型外） 针对以上模型可以选取不同的规模报酬性，分别是：CRS (constant returns to scale), VRS (variable returns to scale), NIRS (non-increasing returns to scale) , NDRS (non-decreasing returns-to-scale) 选择传统Radial模型，可以判断规模报酬情况（IRS、CRS、DRS） 计算DEA拥挤理论相关模型：BCSW模型、WY模型 计算基于相邻参比与全局参比的CCR、CCR超效率、SBM、SBM超效率、DDF、EBM、EBM超效率的Malmquist指数模型，并分解为技术进步与效率变化，同时给出计算过程中的效率值 计算ML指数模型与GML指数模型 计算全局参比的Directional SBM模型、Non-radial DDF模型的Malmquist Luenberger指数与Luenberger指数 计算窗口DEA模型，可自行设置窗口期 计算Meta-frontier模型 计算Meta-frontier Malmquist模型 计算多种基础的两阶段网络DEA模型（包含投入、共享投入、中间产品、产出）  高校使用情况词云图 注：根据许可申请信息整理\n"
+	"content": " Dearun Tools简介 数据包络分析(Data envelopment analysis, DEA) 是一种评价具有多投入和多产出的决策单元(Decision-making unit, DMU)相对有效性的非参数方法，其无需预先给定权重和假设分布，可以直接通过投入与产出数据来确定生产前沿面的结构。作为数学、运筹学与计算机的交叉研究领域，DEA方法在多个领域有着广泛的应用。\n大部分刚接触DEA的研究人员，可能都会对这类优化模型有着很深的疑惑，不知从何下手。如果想彻底明白DEA模型的机理，必须熟练掌握并运用运筹学的相关知识，包括如何建立、求解、分析优化模型，这意味着较高的学习成本。目前市面上也有一些软件来处理DEA模型，但是免费的软件只能求解简单的CCR/BCC模型，根本无法满足日常的研究需求。\nDearun Tools是一款可以计算数据包络分析方法中主流模型的软件，包括基础效率模型、超效率模型、网络DEA模型以及动态Malmquist指数分析，同时可以处理包含非期望产出的情形，便于本领域的研究人员快速测算效率值并进行后续的分析，本软件的下载和使用完全免费。\n 请点击左侧菜单栏进行下载、安装与使用Dearun Tools，常见问题解答请点击  FAQ，如有疑问请点击  与我联系\n 公告：Dearun v 3.0.3.11与SBMrun v 1.4及以下的版本将停止使用，请备份好许可后，下载并安装新版本。 下载链接：Dearun，SBMrun\n 注: 软件的每次更新除了加入新模型外，还会修复旧版本中存在的BUG，但是很多同学在软件的使用过程中，会忽略更新提示，导致软件的帮助文件不再适用于当前所使用的旧版本，因此本次强制安装新版本，望大家理解。\n功能介绍  计算传统Radial模型（CCR、BCC）、SBM模型、WSBM（Weighted SBM）模型、DDF模型、EBM模型、MinDP（至前沿最小距离）、Directional SBM模型、Non-radial DDF模型、整数DEA模型的效率值 可输出λ系数矩阵与影子价格矩阵 可以计算六种主流的交叉效率模型 计算FDH、FRH、ERH模型的效率值（投入与产出导向） Pessimistic CCR投入导向模型、CCR产出导向模型 可通过ZSG-DEA模型进行单资源分配 计算传统Radial模型、SBM模型、DDF模型、EBM模型、Directional SBM模型、WSBM模型的超效率值 可以处理包含非期望产出的情况（除EBM模型外） 针对以上模型可以选取不同的规模报酬性，分别是：CRS (constant returns to scale), VRS (variable returns to scale), NIRS (non-increasing returns to scale) , NDRS (non-decreasing returns-to-scale) 选择传统Radial模型，可以判断规模报酬情况（IRS、CRS、DRS） 计算DEA拥挤理论相关模型：BCSW模型、WY模型 计算基于相邻参比与全局参比的CCR、CCR超效率、SBM、SBM超效率、DDF、EBM、EBM超效率的Malmquist指数模型，并分解为技术进步与效率变化，同时给出计算过程中的效率值 计算ML指数模型与GML指数模型 计算全局参比的Directional SBM模型、Non-radial DDF模型的Malmquist Luenberger指数与Luenberger指数 计算窗口DEA模型，可自行设置窗口期 计算Meta-frontier模型 计算Meta-frontier Malmquist模型 计算多种基础的两阶段网络DEA模型（包含投入、共享投入、中间产品、产出）  高校使用情况词云图 注：根据许可申请信息整理\n"
 },
 {
 	"uri": "https://dearunn.github.io/faq/",
@@ -116,12 +116,12 @@
 	"title": "用户须知",
 	"tags": [],
 	"description": "",
-	"content": " 本软件的版权归Dearun开发者所有，受知识产权法保护。未经作者许可，不得以任何方式复制、分发、修改、翻译、反编译本软件，不得故意删除或者改变软件权利管理电子信息。如有侵权行为，将追究责任。\nThe copyright of this software belongs to Dearun developer. All rights are protected by intellectual property law. The software may not be reproduced, distributed, modified, translated or decompiled in any way, nor may the software information be intentionally deleted or altered without the author\u0026rsquo;s permission. Whoever conducts infringement shall be investigated for responsibility in accordance with the law.\n"
+	"content": " 本软件的版权归Dearun Tools开发者所有，受知识产权法保护。未经作者许可，不得以任何方式复制、分发、修改、翻译、反编译本软件，不得故意删除或者改变软件权利管理电子信息。如有侵权行为，将追究责任。\nThe copyright of this software belongs to Dearun Tools developer. All rights are protected by intellectual property law. The software may not be reproduced, distributed, modified, translated or decompiled in any way, nor may the software information be intentionally deleted or altered without the author\u0026rsquo;s permission. Whoever conducts infringement shall be investigated for responsibility in accordance with the law.\n"
 },
 {
 	"uri": "https://dearunn.github.io/contact/",
 	"title": "联系方式",
 	"tags": [],
 	"description": "",
-	"content": " Dearun 作为一款涵盖各类数据包络分析主流模型的计算软件，旨在为大家在科研中提供帮助。由于目前软件的算法实现部分与界面开发功能均由一人完成，难免会出现一些bug，感谢大家一直以来的支持和反馈，软件也在改进的过程中不断成长。如果您在体验过程中遇到了问题，或者发现计算结果有误，欢迎及时联系我！\n  邮箱：admin@dearun.top (有问题请邮件联系)  交流群：164511727      留言:    --  大家有什么想说的欢迎在下方留言，邮箱处若输入QQ邮箱，将会自动获取头像，也可以注册登录进行评论~\n留言:  #body img { margin: auto; display: inline; text-align: left; }     import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs'; init({ locale : { reactionTitle: '觉得有帮助的话，请点个赞吧~', }, el: '#waline', search: false, meta: ['nick', 'mail'], reaction: true, copyright: false, pageSize: 15, pageview: true, serverURL: 'https://comments.dearun.net/', comment: true, emoji: [ 'https://unpkg.com/@waline/emojis@1.1.0/tw-emoji', ], });    Dearun: 数据包络分析效率计算软件\n"
+	"content": " Dearun Tools作为一款涵盖各类数据包络分析主流模型的计算软件，旨在为大家在科研中提供帮助。由于目前软件的算法实现部分与界面开发功能均由一人完成，难免会出现一些bug，感谢大家一直以来的支持和反馈，软件也在改进的过程中不断成长。如果您在体验过程中遇到了问题，或者发现计算结果有误，欢迎及时联系我！\n  邮箱：admin@dearun.top (有问题请邮件联系)  交流群：164511727      留言:    --  大家有什么想说的欢迎在下方留言，邮箱处若输入QQ邮箱，将会自动获取头像，也可以注册登录进行评论~\n留言:  #body img { margin: auto; display: inline; text-align: left; }     import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs'; init({ locale : { reactionTitle: '觉得有帮助的话，请点个赞吧~', }, el: '#waline', search: false, meta: ['nick', 'mail'], reaction: true, copyright: false, pageSize: 15, pageview: true, serverURL: 'https://comments.dearun.net/', comment: true, emoji: [ 'https://unpkg.com/@waline/emojis@1.1.0/tw-emoji', ], });    Dearun: 数据包络分析效率计算软件\n"
 }]
