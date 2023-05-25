@@ -1,4 +1,20 @@
 
+QTabWidget::pane {
+    border: 1px solid #D8D8D8;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-radius: 10px;
+    background-color: #FAFAFA
+}
+QTextBrowser {
+    border-radius: 10px;
+    border: none;
+}
+
+QHeaderView::section:vertical {
+    color: #dadada; 
+} 
+
 QPushButton, QCommandLinkButton{
     padding: 0 5px 0 5px;
     border-style: solid;
@@ -6,7 +22,7 @@ QPushButton, QCommandLinkButton{
     border-right-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:0, stop:0 #c1c9cf, stop:1 #d2d8dd);
     border-bottom-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 #c1c9cf, stop:1 #d2d8dd);
     border-left-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #c1c9cf, stop:1 #d2d8dd);
-    border-width: 2px;
+    border-width: 1.5px;
     border-radius: 8px;
     color: #4b4a4a;
     font-weight: ;
@@ -196,4 +212,50 @@ QCheckBox:hover {
 	border-width:1px;
 	border-color: rgb(87, 97, 106);
 	background-color:#cfe2f3;
+}
+
+QDialog {
+    background-color: #f6f6f6f9;
+}
+
+
+QMenuBar::item:selected {
+    background-color: #dfdada; /* Set the background color of selected menu items */
+}
+
+QMenu {
+    background-color: #eee; /* Set the background color of menus to a lighter color */
+    border: 1px solid black; /* Set the border of menus */
+}
+
+QMenu::item {
+    padding: 2px 20px; /* Set the padding of menu items */
+    background-color: transparent; 
+    color: #000; /* Set the text color of menu items */
+}
+
+QMenu::item:selected {
+    background-color: #00008B; /* Set the background color of selected menu items to dark blue */
+    color: #fff; /* Set the text color of selected menu items to white */
+}
+
+QMenu::item:hover {
+    background-color: #87CEFA; /* Set the background color of hovered menu items to light sky blue */
+    color: #000; /* Set the text color of hovered menu items to black */
+}
+
+QMenu::item:pressed {
+    background-color: #4169E1; /* Set the background color of pressed menu items to royal blue */
+    color: #fff; /* Set the text color of pressed menu items to white */
+}
+
+QMenu::item:disabled {
+    background-color: #ccc; /* Set the background color of disabled menu items to light gray */
+    color: #888; /* Set the text color of disabled menu items to gray */
+}
+
+
+QMainWindow {
+    background-color: #FAFAFA;
+    color: #333333;
 }
