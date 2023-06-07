@@ -17,7 +17,7 @@
 	"curr_conn": "\n版本最新为 v3.1.0.2，无需更新。\n\n->如果您在软件使用过程中，有任何问题，欢迎发送邮件至: admin@dearun.top\n十分感谢您的支持。",	
 	"WelcomePage": "* * * * *请务必进行更新* * * * *\n\n新版本 (v 3.1.0.2) 更新内容: \n\n1. 修复当对结果表格排序时，数据显示异常、错位的问题\n2. 优化部分操作提示\n\n为了软件功能的正常使用，请前往更新",
 	"information": "===> *********** ！！！您当前版本过低，请点击检查更新进行更新！！！*********** <===\n",
-	"information_new": "<strong><font color='#984B4B'>公告：请务必保持软件为最新版本（v3.1.0.1）</font></strong>\n",
+	"information_new": "<strong><font color='#984B4B'>公告：请务必保持软件为最新版本（v3.1.0.2）</font></strong>\n",
 	"solver":"--------------------信息输出栏 Solver supported by CBC (coin-or.org)--------------------\n-> 开始计算后将自动切换本栏, 此处输出导入数据信息、模型注意事项、模型设定信息等",
 	"currentdateurl": "http://www.beijing-time.org/t/time.asp",
 	"modelfree_1": "[]",
@@ -27,4 +27,5 @@
 	"isNotice": 1,
 	"NoticeContent": "hahahahhaha",
 	"GoNotice": "hahahahha",
+	"WebNotice": "https://wwoy.lanzouy.com/dearun",
 }
