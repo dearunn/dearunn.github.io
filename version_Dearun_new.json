@@ -25,7 +25,17 @@
 	"modelfree_3": "['超效率SBM Malmquist 指数 -全局参比','超效率SBM Malmquist 指数 -全局参比','网络DEA Malmquist 指数 -全局参比']",
 	"modelfree_4": "[]",
 	"isNotice": 1,
-	"NoticeContent": "hahahahha222",
-	"GoNotice": "hahahah",
-	"WebNotice": "https://wwoy.lanzouy.com/dearun"
+	"NoticeTitle": "公告",
+	"NoticeContent": "Dearun Standard版本目前提供了中期许可, 可前往了解",
+	"GoNotice": "前往",
+	"NotNotice": "取消",
+	"WebNotice": "https://docs.qq.com/doc/p/b920d423ebad9dda448acca2d67064cb6b20573b",
+	"TimeNotice": 3000,
+	"isNoticeup": 1,
+	"NoticeTitleup": "更新通知",
+	"NoticeContentup": "当前软件有版本，请前往更新",
+	"GoNoticeup": "前往",
+	"NotNoticeup": "取消",
+	"WebNoticeup": "https://wwoy.lanzouy.com/dearun",
+	"TimeNoticeup": 3000
 }
