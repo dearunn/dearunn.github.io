@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>主页 on Dearun Tools官方网站</title>
+    <title>Dearun Tools官方网站</title>
     <link>https://dearunn.github.io/</link>
-    <description>Recent content in 主页 on Dearun Tools官方网站</description>
+    <description>Recent content on Dearun Tools官方网站</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://dearunn.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>常见问题解答</title>
@@ -52,7 +52,7 @@ SBMrun软件是Dearun软件中有关SBM模型的模块，只能做有关SBM的�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dearunn.github.io/version/</guid>
-      <description>3.1.0.2-3.1.0.3 版本更新时间：2023年11月25日
+      <description>3.1.0.2-3.2.0.1 版本更新时间：2023年11月25日
  优化了软件的启动速度 优化了输出表格的格式 保存结果时输出参数的设置文档 加入了对超效率值的分解选项 修正了部分模型的结果  3.1.0.1-3.1.0.2 版本更新时间：2023年6月8日
  修复当对结果表格排序时，数据显示异常、错位的问题 新增软件界面大小调节功能 优化部分操作提示  3.1.0 版本更新时间：2023年5月26日
  优化软件界面，新增菜单栏 新增工作区，优化表格选取操作 新增部分按钮快捷键，优化使用体验 新增示例数据，软件首次安装后工作区将展示这些数据 新增效率分解选项与指数分解选项，勾选后可以对效率值与指数值进行分解 修复旧版本存在问题  3.0.3.16 版本更新时间：2023年3月14日

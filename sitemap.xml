@@ -24,11 +24,12 @@
   </url><url>
     <loc>https://dearunn.github.io/application/activation/</loc>
   </url><url>
+    <loc>https://dearunn.github.io/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>https://dearunn.github.io/categories/</loc>
   </url><url>
     <loc>https://dearunn.github.io/tags/</loc>
-  </url><url>
-    <loc>https://dearunn.github.io/</loc>
   </url><url>
     <loc>https://dearunn.github.io/faq/</loc>
   </url><url>
