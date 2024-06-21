@@ -52,8 +52,8 @@ SBMrun软件是Dearun软件中有关SBM模型的模块，只能做有关SBM的�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dearunn.github.io/version/</guid>
-      <description>3.2.0.3 版本更新时间：2024年6月20日
- 软件内核更新，优化软件运行速度 修正部分模型的结果  3.2.0.1-3.2.0.2 版本更新时间：2023年11月27日
+      <description>3.2.0.3-3.2.0.5 版本更新时间：2024年6月21日
+ 软件内核更新，优化软件运行速度 支持读取csv文件 修复数据规模较大时保存结果卡顿的问题 修正部分模型的结果  3.2.0.1-3.2.0.2 版本更新时间：2023年11月27日
  修复3.2.0.1版本中的一些问题  3.1.0.2-3.2.0.1 版本更新时间：2023年11月25日
  优化了软件的启动速度 优化了输出表格的格式 保存结果时输出参数的设置文档 加入了对超效率值的分解选项 修正了部分模型的结果  3.1.0.1-3.1.0.2 版本更新时间：2023年6月8日
  修复当对结果表格排序时，数据显示异常、错位的问题 新增软件界面大小调节功能 优化部分操作提示  3.1.0 版本更新时间：2023年5月26日
@@ -81,7 +81,7 @@ The copyright of this software belongs to Dearun Tools developer. All rights are
       
       <guid>https://dearunn.github.io/contact/</guid>
       <description>Dearun Tools作为一款涵盖各类数据包络分析主流模型的计算软件，旨在为大家在科研中提供帮助。由于目前软件的算法实现部分与界面开发功能均由一人完成，难免会出现一些bug，感谢大家一直以来的支持和反馈，软件也在改进的过程中不断成长。如果您在体验过程中遇到了问题，或者发现计算结果有误，欢迎及时联系我！
-  邮箱：admin@dearun.top (有问题请邮件联系)   交流群：164511727 --     留言:    --  大家有什么想说的欢迎在下方留言，邮箱处若输入QQ邮箱，将会自动获取头像，也可以注册登录进行评论~
+  邮箱：admin@dearun.top (有问题请邮件联系)   交流群：164511727 --    留言:    --  大家有什么想说的欢迎在下方留言，邮箱处若输入QQ邮箱，将会自动获取头像，也可以注册登录进行评论~
 留言:  #body img { margin: auto; display: inline; text-align: left; }     import { init } from &#39;https://unpkg.com/@waline/client@v2/dist/waline.mjs&#39;; init({ locale : { reactionTitle: &#39;觉得有帮助的话，请点个赞吧~&#39;, }, el: &#39;#waline&#39;, search: false, meta: [&#39;nick&#39;, &#39;mail&#39;], reaction: true, copyright: false, pageSize: 15, pageview: true, serverURL: &#39;https://comments.dearun.net/&#39;, comment: true, emoji: [ &#39;https://unpkg.</description>
     </item>
     
